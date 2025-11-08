@@ -1,4 +1,4 @@
-theme: jekyll-theme-chirpy
+theme: chirpy
 title: Kishmish Home page
 description: I write about what seems interesting to me
 permalink: /posts/:categories/:title
