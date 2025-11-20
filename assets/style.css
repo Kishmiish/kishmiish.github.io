@@ -1,0 +1,125 @@
+/* ===========================
+   Global Reset
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===========================
+   Body
+=========================== */
+body {
+    font-family: sans-serif; /* You can replace with Vazir or Shabnam later */
+    direction: rtl;
+    text-align: right;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.8;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ===========================
+   Header Navigation
+=========================== */
+header {
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+header a {
+    margin-left: 15px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   Main Content
+=========================== */
+main {
+    margin-top: 20px;
+}
+
+/* ===========================
+   Blog Post Title
+=========================== */
+h1, h2, h3, h4, h5 {
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* ===========================
+   Blog Post Container
+=========================== */
+.post {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+/* ===========================
+   Date Text
+=========================== */
+.date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* ===========================
+   Paragraphs & Links
+=========================== */
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   Code Blocks
+=========================== */
+pre, code {
+    font-family: "Fira Code", monospace;
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 15px;
+}
+
+/* ===========================
+   Images
+=========================== */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* ===========================
+   Lists
+=========================== */
+ul, ol {
+    margin: 15px 30px;
+}
+
